@@ -1,9 +1,10 @@
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: 'Source Code Pro', sans-serif;
   line-height: 1.4;
   padding: 50px;
-  color: #333;
+  color: #FFF;
+  background-color: #0F0E0E;
 }
 
 h1 {
@@ -12,5 +13,9 @@ h1 {
 }
 
 .work {
-  margin-top: 50px;
+  margin-top: 80px;
+}
+
+a, a:hover, a:visited {
+  color: #FFF;
 }
