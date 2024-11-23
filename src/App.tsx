@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Hero from './components/Hero'
 
 function App() {
   return (
@@ -12,9 +13,51 @@ function App() {
 
       <div className='container mx-auto px-8'>
         <Header />
+        <Hero />
         <h1 className='block mx-auto my-auto text-center text-3xl text-white'>
           Work in progress...
         </h1>
+
+        <section className='mt-4'>
+          <h3 className='my-4 text-2xl font-bold'>Vanilla JS</h3>
+          <ul className='list-inside list-disc'>
+            <li>
+              <a href='https://lordrake.github.io/todo-app/' target='_blank'>
+                To Do app
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://lordrake.github.io/random-quote-generator/'
+                target='_blank'
+              >
+                Random Quote Generator
+              </a>
+            </li>
+            <li>
+              <a href='https://lordrake.github.io/memory-game/' target='_blank'>
+                Memory game
+              </a>
+            </li>
+          </ul>
+
+          <h3 className='my-4 text-2xl font-bold'>ReactJS</h3>
+          <ul className='list-inside list-disc'>
+            <li>
+              <a href='https://lordrake.github.io/tris-app/' target='_blank'>
+                Tris
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://lordrake.github.io/colors-generator/'
+                target='_blank'
+              >
+                Colors Generator
+              </a>
+            </li>
+          </ul>
+        </section>
       </div>
     </div>
   )
