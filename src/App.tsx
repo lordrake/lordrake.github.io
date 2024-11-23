@@ -14,11 +14,11 @@ function App() {
       <div className='container mx-auto px-8'>
         <Header />
         <Hero />
-        <h1 className='block mx-auto my-auto text-center text-3xl text-white'>
+        <h2 className='block mx-auto my-auto text-center text-3xl text-white'>
           Work in progress...
-        </h1>
+        </h2>
 
-        <section className='mt-4'>
+        <section className='my-8 mb-32'>
           <h3 className='my-4 text-2xl font-bold'>Vanilla JS</h3>
           <ul className='list-inside list-disc'>
             <li>
