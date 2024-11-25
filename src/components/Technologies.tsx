@@ -1,6 +1,6 @@
 import { FaAngular, FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine } from 'react-icons/ri'
-import { SiTypescript } from 'react-icons/si'
+import { SiMysql, SiTypescript } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
 
 function Technologies() {
@@ -22,6 +22,9 @@ function Technologies() {
         </div>
         <div className='p-4'>
           <FaNodeJs className='text-6xl text-green-500' />
+        </div>
+        <div className='p-4'>
+          <SiMysql className='text-6xl text-orange-400' />
         </div>
       </div>
     </section>

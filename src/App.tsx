@@ -1,3 +1,4 @@
+import Contact from './components/Contact'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <Technologies />
         <Projects />
+        <Contact />
       </div>
     </div>
   )
