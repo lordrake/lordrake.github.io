@@ -1,5 +1,7 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Projects from './components/Projects'
+import Technologies from './components/Technologies'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <div className='container mx-auto px-8'>
         <Header />
         <Hero />
+        <Technologies />
+        <Projects />
         <h2 className='block mx-auto my-auto text-center text-3xl text-white'>
           Work in progress...
         </h2>

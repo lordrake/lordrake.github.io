@@ -32,6 +32,15 @@ function Hero() {
           and Creative approach, I like delivering effective products with
           exceptional user experiences.
         </p>
+        <a
+          href='/danilo-colella-resume.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+          download
+          className='bg-white rounded-full p-4 text-sm text-stone-800'
+        >
+          Download Resume
+        </a>
       </div>
     </div>
   )
