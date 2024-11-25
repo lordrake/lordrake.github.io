@@ -2,7 +2,7 @@ import profilePic from '../assets/danilo-colella-profile.png'
 
 function Hero() {
   return (
-    <div className='mx-auto w-100 lg:w-3/4 pb-4 mt-8 lg:mb-36 lg:mt-16'>
+    <div className='mx-auto w-fit pb-4 mt-8 lg:mb-36 lg:mt-16'>
       <div className='flex flex-col-reverse  lg:flex-row-reverse gap-y-4 gap-x-16 items-center lg:justify-end'>
         <div className='flex flex-col justify-center items-center lg:items-start'>
           <h2 className='pb-2 text-4xl tracking-tighter lg:text-8xl'>
