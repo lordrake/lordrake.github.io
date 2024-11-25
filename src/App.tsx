@@ -18,50 +18,6 @@ function App() {
         <Hero />
         <Technologies />
         <Projects />
-        <h2 className='block mx-auto my-auto text-center text-3xl text-white'>
-          Work in progress...
-        </h2>
-
-        <section className='my-8 mb-32'>
-          <h3 className='my-4 text-2xl font-bold'>Vanilla JS</h3>
-          <ul className='list-inside list-disc'>
-            <li>
-              <a href='https://lordrake.github.io/todo-app/' target='_blank'>
-                To Do app
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://lordrake.github.io/random-quote-generator/'
-                target='_blank'
-              >
-                Random Quote Generator
-              </a>
-            </li>
-            <li>
-              <a href='https://lordrake.github.io/memory-game/' target='_blank'>
-                Memory game
-              </a>
-            </li>
-          </ul>
-
-          <h3 className='my-4 text-2xl font-bold'>ReactJS</h3>
-          <ul className='list-inside list-disc'>
-            <li>
-              <a href='https://lordrake.github.io/tris-app/' target='_blank'>
-                Tris
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://lordrake.github.io/colors-generator/'
-                target='_blank'
-              >
-                Colors Generator
-              </a>
-            </li>
-          </ul>
-        </section>
       </div>
     </div>
   )
