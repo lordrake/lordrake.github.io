@@ -31,6 +31,12 @@ function Projects() {
                   {tech}
                 </span>
               ))}
+              <a
+                href={project.url}
+                className='my-4 mt-8 block font-bold text-xs underline underline-offset-4'
+              >
+                View
+              </a>
             </div>
           </div>
         ))}

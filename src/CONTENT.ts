@@ -9,23 +9,27 @@ export const PROJECTS = [
     image: projectTicTacToe,
     description: 'The classic game, in React',
     technologies: ['React', 'HTML', 'CSS'],
+    url: 'https://lordrake.github.io/tris-app/',
   },
   {
     title: 'Memory Game',
     image: projectMemory,
     description: 'Test your memory with this game',
     technologies: ['JavaScript', 'HTML', 'CSS'],
+    url: 'https://lordrake.github.io/memory-game/',
   },
   {
     title: 'To Do App',
     image: projectImageTodo,
     description: 'A simple To Do App in React',
     technologies: ['JavaScript', 'HTML', 'CSS'],
+    url: 'https://lordrake.github.io/todo-app/',
   },
   {
     title: 'Color Palette Generator',
     image: projectColorPaletteGenerator,
     description: 'A tool to generate color hues with hex codes',
     technologies: ['React', 'HTML', 'CSS'],
+    url: 'https://lordrake.github.io/colors-generator/',
   },
 ]
