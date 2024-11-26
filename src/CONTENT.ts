@@ -33,3 +33,8 @@ export const PROJECTS = [
     url: 'https://lordrake.github.io/colors-generator/',
   },
 ]
+
+export const CONTACT = {
+  address: 'Rotterdam, The Netherlands',
+  email: 'danilocolella17@gmail.com',
+}
