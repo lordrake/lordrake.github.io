@@ -2,7 +2,7 @@ import { FaAngular, FaNodeJs } from 'react-icons/fa'
 import { RiReactjsLine } from 'react-icons/ri'
 import { SiMysql, SiTypescript } from 'react-icons/si'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { motion } from 'framer-motion'
+import { motion, RepeatType } from 'framer-motion'
 
 const iconVariants = (duration: number) => ({
   initial: { y: 10 },
@@ -12,7 +12,7 @@ const iconVariants = (duration: number) => ({
       duration: duration,
       ease: 'linear',
       repeat: Infinity,
-      repeatType: 'reverse',
+      repeatType: 'loop' as RepeatType,
     },
   },
 })
@@ -50,7 +50,6 @@ function Technologies() {
           <TbBrandNextjs className='text-7xl' />
         </motion.div>
         <motion.div
-          className='p-4'
           className='p-4'
           initial='initial'
           animate='animate'
